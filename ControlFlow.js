@@ -186,6 +186,7 @@
 // function fizzBuzz(input) {
 //     if (typeof input !== 'number')
 //         return 'Not a number';
+//    //   return NaN;
 
 //     if ((input % 3 === 0) && (input % 5 === 0)) // has to go first, or even qualifying inputs will return Fizz, due to order of operations
 //         return 'FizzBuzz!';    
@@ -202,3 +203,90 @@
 // }
 
 // ============================
+
+// Exercise
+// Speed Limit = 70
+// 5 -> 1 point
+// Math.floor(1.3) The Math.floor() static method always rounds down and returns the largest integer less than or equal to a given number.
+// 12 points -> suspended
+
+// checkSpeed(160);
+// checkSpeed(80);
+// checkSpeed(70);
+// checkSpeed(75);
+// checkSpeed(73);
+
+// function checkSpeed(speed) {
+//     const speedLimit = 70;
+//     const kmPerPoint = 5;
+    
+//     if (speed < speedLimit + kmPerPoint)
+//         console.log('Ok');
+//     else {
+//         const points = Math.floor((speed - speedLimit) / kmPerPoint); 
+//         if (points >= 12)
+//             console.log('License suspended');
+//         else
+//             console.log('Points', points);
+//     }    
+// }
+
+// =============================================
+
+// Exercise
+// count numbers from 0 to limit, defining them as odd or even
+
+// showNumbers(10);
+
+// function showNumbers(limit) {
+//     for (let i = 0; i <= limit; i++) {
+//         if (i % 2 !== 0) {
+//             console.log(i, 'Odd');
+//         }
+//         else console.log(i, 'Even');
+//     }
+// }
+
+// =============================================
+
+// Exercise
+// Count truthy in array
+
+// const array = [1, 2, 0, 0, NaN];
+
+// console.log(countTruthy(array));
+
+// function countTruthy(array) {
+//     let count = 0;
+//     for (let value of array)
+//         if (value)
+//             count++;
+//         return count;
+
+// }
+
+//===================================================
+
+// Exercise
+// 
+
+// const movie = {
+//     title: 'a',
+//     releaseYear: 2018,
+//     rating: 4.5,
+//     director: 'b'
+// };
+
+// showProperties(movie);
+
+// function showProperties(obj) {
+//     for (let key in obj) {
+//         if (typeof obj[key] === 'string')
+//             console.log(key, obj[key]);
+//     }
+
+    // console.log(movie.title, movie.releaseYear, movie.rating, movie.director);
+// }
+
+
+//
