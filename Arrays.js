@@ -60,3 +60,62 @@
 // console.log(course);
 
 // ======================================================
+
+// Remove elements from array
+
+// const numbers = [1, 2, 3, 4];
+
+// End
+// const last = numbers.pop();
+// console.log(numbers);
+// console.log(last);
+
+// Beginning
+
+// const first = numbers.shift();
+// console.log(numbers);
+// console.log(first);
+
+// Middle
+
+// numbers.splice(2, 1);
+// console.log(numbers);
+
+
+// ========================================
+
+// Emptying an array
+
+// let numbers = [1, 2, 3, 4];
+// let another = numbers;
+
+// // Solution 1
+// // numbers.length = 0;
+
+// // Solution 2
+// // numbers.splice(0, numbers.length);
+
+// // Solution 3
+// while (numbers.length > 0)
+//     numbers.pop();
+
+// console.log(numbers);
+// console.log(another);
+
+// ==========================================
+
+// Combining and slicing arrays
+
+// const first = [1, 2, 3];
+// const second = [4, 5, 6];
+
+// const combined = first.concat(second);
+
+// const slice = combined.slice(2, 4);
+
+
+// console.log(slice);
+
+
+// ============================================
+
