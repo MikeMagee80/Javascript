@@ -291,3 +291,76 @@
 // }
 
 // =======================================
+
+// const myData = {
+//       firstName: 'Mike',
+//       lastName: 'Johnson',
+//       age: 45,
+//       placeOfResidence: 'Austin',
+// };
+
+// function showData(myData) {
+//       for (let data in myData)
+//             console.log(data, myData[data]);
+// }
+
+// showData(myData);
+
+// ========================================
+
+// Exercise
+
+// Blog Post Object
+
+// title, body, author, views, comments (author, body), isLive 
+
+// const post = {
+//       title: 'a',
+//       body: 'b',
+//       author: 'c',
+//       views: 10,
+//       comments: [
+//             { author: 'a', body: 'b' },
+//             { author: 'a', body: 'b' },
+//       ],
+//       islive: true
+// };
+
+// console.log(post);
+
+// ==========================================
+
+// Exercise
+
+// Constructor Function
+
+
+
+// let post = new Post('a', 'b', 'c');
+
+// console.log(post);
+
+// function Post(title, body, author) {
+//       this.title = title;
+//       this.body = body;
+//       this.author = author;
+//       this.views = 0;  // default values
+//       this.comments = [];
+//       this. islive = false;
+// }
+
+// ========================================
+
+// Exercise
+
+// Price Range Object
+
+// let priceRanges = [
+//       { label: '$', tooltip: 'Inexpensive', minPerPerson: 0, maxPerPerson: 10 }
+//       { label: '$$', tooltip: 'Moderate', minPerPerson: 11, maxPerPerson: 20 }
+//       { label: '$$$', tooltip: 'Expensive', minPerPerson: 21, maxPerPerson: 50 }
+// ];
+
+// let restaurants = [
+//       { averagePerPerson: 5 }
+// ]
